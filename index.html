@@ -1,78 +1,85 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<title>WEB1- Welcome</title>
-<meta charset="utf-8">
-<style>
-body{
-  margin:0;
-}
-a{
-
-  color:black;
-  text-decoration: none;
-}
-h1 {
-  font-size:45px;
-  text-align: center;
-  border-bottom:1px solid gray;
-  margin:0;
-  padding:20px;
-}
-ol{
-  border-right: 1px solid gray;
-  width:100px;
-  margin:0;
-  padding:20px;
-}
-#grid{
-  display: grid;
-  grid-template-columns: 150px 1fr;
-}
-#grid ol{
-  padding-left: 33px;
-}
-#grid #article{
-  padding-left: 25px;
-}
-
-@media (max-width:800px){
-  #grid{
-    display: block;
-  }
-  ol{
-    border-right:none;
-  }
-  h1{
-    border-bottom: none;
-  }
-}
-
-</style>
-</head>
-<body>
-  <h1><a href="index.html">WEB</a></h1>
-  <div id="grid">
-<Ol>
-  <li><a href="1.html">HTML</a></li>
-  <li><a href="2.html">CSS</a></li>
-  <li><a href="3.html">JavaScript</a></li>
-</Ol>
-<div id="article">
-<h2>WEB이란 무엇인가?</h2>
-<p>1990년에 발표된 월드 와이드 웹(World Wide Web, WWW, W3)은<br> 인터넷에 연결된 컴퓨터를 이용해 사람들과 정보를 공유할 수 있는 거미줄(Web)처럼 얼기설기 엮인 공간을 뜻하는 용어다.<br> HTTP 프로토콜을 기반으로 HTML로 작성된 하이퍼텍스트 페이지를 <br>웹 브라우저라는 특정한 프로그램으로 읽을 수 있게 하도록 구성되어 있다. <br>WWW, W3, 또는 간단하게 웹(Web)이라고도 한다.<br> 일반인에게 인터넷이 보급되기 시작한 1994년부터 <br>사실상 인터넷과 동의어 취급할 정도로 가장 널리 보급된 인터넷 시스템이다.<br> 일반인들에게 인터넷 한다는 게 뭐냐고 물어보면 대다수는 웹 브라우저 켜고 웹 서핑하는 것이라고 대답할 것이다.</p>
-<p><!--Start of Tawk.to Script-->
-<script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/5d4fbc0ceb1a6b0be606fa33/default';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
-</script>
-<!--End of Tawk.to Script--></div></div></P>
-</body>
+    <head>
+        <title>SQUARE GRID</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
+ </head>
+    <body>
+        <div class="wrapper">
+            <ul class="sq clearfix">
+                <li class="sq-item sq-item-large">
+                   <a class="sq-item-anchor" href="">
+                      <img class="sq-item-anchor-cover"
+                      src="na.jpg">
+                       <span class="sq-item-anchor-title">Hyejeong</span>
+                   </a>
+                </li>
+                 <li class="sq-item">
+                   <a class="sq-item-anchor" href="">
+                       <img class="sq-item-anchor-cover"
+                      src="ino.jpg">
+                       <span class="sq-item-anchor-title">ino</span>
+                   </a>
+                </li>
+                 <li class="sq-item">
+                   <a class="sq-item-anchor" href="">
+                      <img class="sq-item-anchor-cover"
+                      src="miin.jpg">
+                       <span class="sq-item-anchor-title">miin</span>
+                   </a>
+                </li>
+                 <li class="sq-item">
+                   <a class="sq-item-anchor" href="">
+                      <img class="sq-item-anchor-cover"
+                      src="hyoju.jpg">
+                       <span class="sq-item-anchor-title">hyoju</span>
+                   </a>
+                </li>
+                 <li class="sq-item sq-item-long sq-item-float-right">
+                   <a class="sq-item-anchor" href="">
+                       <img class="sq-item-anchor-cover"
+                      src="pen-.jpg">
+                       <span class="sq-item-anchor-title">nana</span>
+                   </a>
+                </li>
+                 <li class="sq-item">
+                   <a class="sq-item-anchor" href="">
+                       <img class="sq-item-anchor-cover"
+                      src="pink-.jpg">
+                       <span class="sq-item-anchor-title">nana-</span>
+                   </a>
+                </li>
+                 <li class="sq-item">
+                   <a class="sq-item-anchor" href="">
+                     <img class="sq-item-anchor-cover"
+                      src="shj-.jpg">
+                       <span class="sq-item-anchor-title">shj</span>
+                   </a>
+                </li>
+                 <li class="sq-item">
+                   <a class="sq-item-anchor" href="">
+                       <img class="sq-item-anchor-cover"
+                      src="teri.jpg">
+                       <span class="sq-item-anchor-title">teri</span>
+                   </a>
+                </li>
+                 <li class="sq-item sq-item-wide">
+                   <a class="sq-item-anchor" href="">
+                      <img class="sq-item-anchor-cover"
+                      src="tea.jpg">
+                       <span class="sq-item-anchor-title">tea</span>
+                   </a>
+                </li>
+                 <li class="sq-item">
+                   <a class="sq-item-anchor" href="">
+                      <img class="sq-item-anchor-cover"
+                      src="nana.jpg">
+                       <span class="sq-item-anchor-title">nana</span>
+                   </a>
+                </li>
+            </ul>
+        </div>
+    </body>
 </html>
